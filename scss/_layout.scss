@@ -1,0 +1,45 @@
+// ------ Layout is for the general layout of the style guide
+
+//Navbar and Header----
+.top-banner {
+    background-color: #254f90;
+    border-bottom: .25rem solid #e5b13d;
+    padding-top: 4px;
+    padding-left: 10px;
+    height: 67px;
+    @media (min-width: 480px) {
+        padding-top: 5px;
+        height: 74px;
+    }
+}
+a.ablis-logo {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.logo-svg {
+    width: 200px;
+    display: block;
+    @media (min-width: 480px) {
+        width: 246px;
+        height: 56px;
+    }
+}
+.bg-inverse {
+    background-color: $ablis-blue !important;
+}
+#main-heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.heading {
+    margin-bottom: 50px;
+    color: $ablis-blue;
+}
+
+section {
+    margin-bottom: 50px;
+    border-bottom: 1px solid $table-lines;
+    padding-bottom: 50px;
+}

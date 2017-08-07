@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Style guide for ABLIS">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Style Guide for ABLIS</title>
+    <!-- Font Family Embed -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <!-- Bootstrap core CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="ablis-style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse top-banner">
+<!--
+        <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+-->
+        <a class="navbar-brand ablis-logo" href="#">
+            <img class="logo-svg" src="img/ABLIS-Logo-SVG.svg">
+        </a>
+
+<!--
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+-->
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Introduction <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brand">Brand/Logo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#colours">Colours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#typography">Typography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#buttons">Buttons &amp; Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iconography">Iconography</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <h1 id="main-heading">ABLIS UI Style Guide</h1>
+
+                <h2 id="introduction" class="heading">Introduction</h2>
+                <section class="row placeholders">
+                    <div class="col-md-6 col-xs-12">
+                        <p>This is a style guide for UI designers.</p>
+                    </div>
+                </section>
+
+                <h2 id="brand" class="heading">Brand / Logo</h2>
+                <section class="row placeholders">
+                    <div class="col-md-6 col-xs-12 placeholder">
+                        <img src="img/ablis-logo.png" alt="ablis logo">
+                        <h4 class="caption">ABLIS logo</h4>
+                    </div>
+                    <div class="col-md-6 col-xs-12 placeholder">
+                        <img src="img/bga-logo.png" alt="business.gov.au logo">
+                        <h4 class="caption">Business.gov.au footer logo</h4>
+                    </div>
+                </section>
+
+
+                <h2 id="colours" class="heading">Colours</h2>
+
+                <section>
+                    <div class="primary-colours">
+                        <h6>Primary colour palette</h6>
+                        <div class="row text-center">
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile ablis-blue"></div>
+                                <h4>ABLIS Blue</h4>
+                                <div class="text-muted">#254f90</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile ablis-red"></div>
+                                <h4>ABLIS Red</h4>
+                                <div class="text-muted">#c62c2a</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile ablis-yellow"></div>
+                                <h4>ABLIS Yellow</h4>
+                                <div class="text-muted">#e5b13d</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile ablis-navy"></div>
+                                <h4>ABLIS Navy</h4>
+                                <div class="text-muted">#212a4c</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="secondary-colours">
+                        <h6>Secondary colour palette</h6>
+                        <div class="row text-center">
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile ablis-green"></div>
+                                <h4>ABLIS Green</h4>
+                                <div class="text-muted">#378211</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile tile-green"></div>
+                                <h4>Tile Green</h4>
+                                <div class="text-muted">#339585</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile tile-purple"></div>
+                                <h4>Tile Purple</h4>
+                                <div class="text-muted">#3d2b97</div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="palette-tile grey"></div>
+                                <h4>Grey</h4>
+                                <div class="text-muted">#cccccc</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <h2 id="typography" class="heading">Typography</h2>
+                <section class="row typography">
+                    <!--
+                    <div class="col-12">
+                        <p>The font used throughout the site is Open Sans.</p>
+                    </div>
+-->
+
+                    <div class="col-12">
+                        <h1>H1 Heading Style</h1>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <h2>H2 Heading Style</h2>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <h3>H3 Heading Style</h3>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <h4>H4 Heading Style</h4>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <h5>H5 Heading Style</h5>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <h6>H6 Heading Style</h6>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p><strong>This is Body copy,</strong> the default style for text within the content area. Since it may be used for long passages or paragraphs, it should be easy to read and have a line-height of 1.5rem. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </section>
+
+                <h2 id="buttons" class="heading">Buttons &amp; Links</h2>
+                <section class="row placeholders">
+                    <div class="col-4 placeholder">
+                        <button type="submit" class="btn btn-primary">Primary button</button>
+                        <!--                        <button type="submit" class="btn btn-default btn-hover">Primary :hover</button>-->
+                    </div>
+                    <div class="col-4 placeholder">
+                        <button type="cancel" class="btn btn-secondary">Secondary button</button>
+                        <!--                        <button type="cancel" class="btn btn-secondary btn-hover">Secondary :hover</button>-->
+                    </div>
+                    <div class="placeholder"></div>
+                </section>
+
+                <h2 id="iconography" class="heading">Iconography</h2>
+                <section class="row placeholders">
+                    <div class="placeholder"></div>
+                    <div class="placeholder"></div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

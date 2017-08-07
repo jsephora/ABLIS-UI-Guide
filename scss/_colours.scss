@@ -1,0 +1,71 @@
+// ----- This is the classes for the Colours Section
+
+//.palette-tile {
+//    display: inline-flex;
+//    height: 100px;
+//    width: 100px;
+//    margin: 0 auto;
+//    margin-bottom: 20px;
+//    border-radius: 4px;
+//}
+
+.primary-colours {
+    .palette-tile {
+        display: inline-flex;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+}
+
+.secondary-colours {
+    .palette-tile {
+        display: inline-flex;
+        height: 50px;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+}
+
+.ablis-blue {
+    background-color: $ablis-blue;
+}
+.ablis-yellow {
+    background-color: $ablis-yellow;
+}
+.ablis-red {
+    background-color: $ablis-red;
+}
+.ablis-navy {
+    background-color: $ablis-navy;
+}
+.ablis-green {
+    background-color: $ablis-green;
+}
+.tile-green {
+    background-color: $green-tile;
+}
+.tile-purple {
+    background-color: $tile-purple;
+}
+.grey {
+    background-color: $grey;
+}
+
+.primary-colours, .secondary-colours {
+    margin-bottom: 50px;
+    h4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h6 {
+        font-weight: 100;
+        border-bottom: 1px solid $table-lines;
+        margin-bottom: 30px;
+        padding-bottom: 8px;
+    }
+}

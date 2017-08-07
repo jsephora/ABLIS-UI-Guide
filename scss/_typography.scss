@@ -1,0 +1,22 @@
+// Typography -----
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    color: $text;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+.typography {
+    h1 {
+        border: none;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    p {
+        line-height: 1.5;
+    }
+}
+h4.caption {
+    font-size: 16px;
+}

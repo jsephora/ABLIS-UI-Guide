@@ -1,0 +1,33 @@
+// Buttons
+
+.btn {
+    
+}
+.btn-primary {
+    color: $btn-color;
+    background-color: $btn-bg;
+    padding: 12px 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid $btn-bg;
+    &:hover {
+        background-color: $btn-hover;
+        border: 1px solid $btn-hover;
+    }
+}
+
+.btn-secondary {
+    color: $btn-bg;
+    background-color: $btn-color;
+    padding: 12px 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid $btn-bg;
+    &:hover {
+        background-color: $btn-hover;
+        border: 1px solid $btn-hover;
+        color: $btn-color;
+    }
+}
