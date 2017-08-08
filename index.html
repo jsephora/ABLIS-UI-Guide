@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse top-banner">
-<!--
+        <!--
         <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,7 +32,7 @@
             <img class="logo-svg" src="img/ABLIS-Logo-SVG.svg">
         </a>
 
-<!--
+        <!--
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -87,21 +87,23 @@
                 <h1 id="main-heading">ABLIS UI Style Guide</h1>
 
                 <h2 id="introduction" class="heading">Introduction</h2>
-                <section class="row placeholders">
-                    <div class="col-md-6 col-xs-12">
+                <section>
+                    
                         <p>This is a style guide for UI designers.</p>
-                    </div>
+                   
                 </section>
 
                 <h2 id="brand" class="heading">Brand / Logo</h2>
-                <section class="row placeholders">
-                    <div class="col-md-6 col-xs-12 placeholder">
-                        <img src="img/ablis-logo.png" alt="ablis logo">
-                        <h4 class="caption">ABLIS logo</h4>
-                    </div>
-                    <div class="col-md-6 col-xs-12 placeholder">
-                        <img src="img/bga-logo.png" alt="business.gov.au logo">
-                        <h4 class="caption">Business.gov.au footer logo</h4>
+                <section>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <img src="img/ablis-logo.png" alt="ablis logo">
+                            <h4 class="caption">ABLIS logo</h4>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <img src="img/bga-logo.png" alt="business.gov.au logo">
+                            <h4 class="caption">Business.gov.au footer logo</h4>
+                        </div>
                     </div>
                 </section>
 
@@ -162,7 +164,7 @@
                 </section>
 
                 <h2 id="typography" class="heading">Typography</h2>
-                <section class="row typography">
+                <section class="typography">
                     <!--
                     <div class="col-12">
                         <p>The font used throughout the site is Open Sans.</p>
@@ -171,38 +173,39 @@
 
                     <div class="col-12">
                         <h1>H1 Heading Style</h1>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2, letter-spacing: -1px. </p>
                         <h2>H2 Heading Style</h2>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p class="text-muted">Font: Open Sans, size: 32px, weight: 500, line-height: 1.2 </p>
                         <h3>H3 Heading Style</h3>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p class="text-muted">Font: Open Sans, size: 28px, weight: 500, line-height: 1.1 </p>
                         <h4>H4 Heading Style</h4>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p class="text-muted">Font: Open Sans, size: 24px, weight: 500, line-height: 1.5 </p>
                         <h5>H5 Heading Style</h5>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
+                        <p class="text-muted">Font: Open Sans, size: 20px, weight: 500, line-height: 1.2 </p>
                         <h6>H6 Heading Style</h6>
-                        <p class="text-muted">Font: Open Sans, size: 48px, weight: 600, line-height: 1.2 </p>
-                        <p><strong>This is Body copy,</strong> the default style for text within the content area. Since it may be used for long passages or paragraphs, it should be easy to read and have a line-height of 1.5rem. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="text-muted">Font: Open Sans, size: 16px, weight: 500, line-height: 1.2 </p>
+                        <p>This is Body copy, the default style for text within the content area. Since it may be used for long passages or paragraphs, it should be easy to read and have a line-height of 1.5rem. <strong>This is bold Body copy.</strong>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </section>
 
                 <h2 id="buttons" class="heading">Buttons &amp; Links</h2>
-                <section class="row placeholders">
-                    <div class="col-4 placeholder">
-                        <button type="submit" class="btn btn-primary">Primary button</button>
-                        <!--                        <button type="submit" class="btn btn-default btn-hover">Primary :hover</button>-->
+                <section>
+                    <div class="row">
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary">Primary button</button>
+                            <!--                        <button type="submit" class="btn btn-default btn-hover">Primary :hover</button>-->
+                        </div>
+                        <div class="col-4">
+                            <button type="cancel" class="btn btn-secondary">Secondary button</button>
+                            <!--                        <button type="cancel" class="btn btn-secondary btn-hover">Secondary :hover</button>-->
+                        </div>
                     </div>
-                    <div class="col-4 placeholder">
-                        <button type="cancel" class="btn btn-secondary">Secondary button</button>
-                        <!--                        <button type="cancel" class="btn btn-secondary btn-hover">Secondary :hover</button>-->
-                    </div>
-                    <div class="placeholder"></div>
                 </section>
 
                 <h2 id="iconography" class="heading">Iconography</h2>
-                <section class="row placeholders">
-                    <div class="placeholder"></div>
-                    <div class="placeholder"></div>
+                <section class="clearfix">
+                    <div class=""></div>
+                    <div class=""></div>
                 </section>
 
             </main>
