@@ -12,11 +12,17 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 48px;
         font-weight: 600;
         line-height: 1.2;
+        letter-spacing: -1px;
     }
     p {
         line-height: 1.5;
     }
+    .text-muted {
+        margin-bottom: 30px;
+    }
 }
 h4.caption {
     font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
